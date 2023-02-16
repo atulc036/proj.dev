@@ -1,0 +1,355 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left{
+    font-weight: 900;
+    font-size: larger;
+}
+ul.head1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li.head2 {
+    float: left;
+    display: block;
+    padding: 20px 5px 10px 5px;
+    text-align: center;
+}
+nav{
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    z-index: 50;
+    position: sticky;
+    top: 0px;
+}
+.right{
+    float: right;
+}
+.btn1{
+    margin-right: 10px;
+    cursor: pointer;
+    width: 75px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    /* margin-bottom: 20px; */
+}
+.btn2{
+    margin-right: 20px;
+    cursor: pointer;
+    width: 75px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f8b94;
+    font-weight: bolder;
+    /* margin-bottom: 20px; */
+}
+.btn1:hover{
+    background-color: gray;
+    color: white;
+    transition: ease 1s;
+}
+.btn1:not(:hover){
+    background-color: lightgrey;
+    transition: ease 2s;
+}
+
+.btn2:hover{
+    background-color: gray;
+    color: white;
+    transition: ease 1s;
+}
+.btn2:not(:hover){
+    background-color: #0f8b94;
+    transition: ease 2s;
+}
+ul.navi1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f8b94;
+    /* position: sticky; */
+    border: none;
+    border-radius: 10px;
+
+    top: 0;
+  }
+  
+li.navi2 {
+    float: left;
+  }
+
+li.navileft2{
+    float: right;
+}  
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+li a:hover {
+    background-color: #0f7794;
+    
+  }
+  
+/* .active {
+    background-color: #4CAF50;
+  } */
+
+.img1 {
+    opacity: 1;
+    display: block;
+    width: 75%;
+    height: auto;
+    /* margin-right: 800px; */
+    transition: 2s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+.imgcont{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 90vw;
+}
+.fbox1{
+    margin-right: -200px;
+    height: auto;
+    width:80%;
+}
+.fbox2{
+    margin-left: -200px;
+    width: 600px;
+    height: auto;
+    position: sticky;
+}
+.imgtxt{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-style: none;
+    border-width: 5px;
+    height: 100px;
+    width: 300px;
+    font-weight: bolder;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contbtn{
+    margin-top: 5px;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    background-color: #0f8b94;
+    
+}
+.contbtn:hover{
+    background-color: gray;
+    color: white;
+    transition: ease 1s;
+}
+#contus{
+    width: 65%;
+    height: 340px;
+    margin: 45px auto 30px 250px;
+    /* background-image: url(image.jpg); */
+    background-color: rgb(6, 64, 115);
+    padding: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(47, 42, 42, 0.1);
+    margin-right: 50px;
+  }
+
+h1{
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-right: 16px;
+  }
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    padding:10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e7e7e2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+input[type=submit], input[type=reset] {
+    box-sizing: border-box;
+    background-color: #e7e7e2;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+
+input[type=submit]:hover {
+    background-color: #0c8510;
+    color: white;
+    transition:ease 1s;
+  }
+input[type=submit]:not(:hover) {
+    background-color: #e7e7e2;
+    color: black;
+    transition:ease 2s;
+  }
+  input[type=reset]:not(:hover) {
+    background-color: #e7e7e2;
+    color: black;
+    transition:ease 2s;
+  }
+  input[type=reset]:hover{
+    background-color: rgb(223, 47, 47);
+    color: white;
+    transition:ease 1s;
+  }
+
+.att1{
+    position: relative;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    height: 100px;
+    width: 100%; 
+}
+
+.att1:hover .txthid {
+ animation-name: rollout;
+}
+.txthid:hover{
+    cursor: pointer;   
+}
+div.txtnly{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+    border: none;
+    text-align: justify;
+    width: 70vh;
+    color: black;
+    /* padding-top: 20px; */
+    /* margin-left: 20px; */
+}
+.txthid{
+    position: absolute;
+    height: 100px;
+    background-color: #0f7794;
+    width: 55%;
+    margin-top: 12px;
+    left: 20px;
+    z-index: 20;
+    border-radius:10px;
+    text-align: center;
+    padding-top: 40px;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-weight: bolder;
+    /* background-color: #0f8b94; */
+    /* width: 97.5%; */
+    /* top: 10px;? */
+    /* transition: all; */
+    /* transition-duration: 4s; */
+    /* vertical-align: middle; */
+}
+/* .txthid:hover{
+    background-color: #0f7794;
+    cursor: pointer;
+    animation-name: rollout;
+} */
+
+.txthid:not(:hover) {
+    animation-name: rollin;
+}
+
+@keyframes rollout {
+    from {left:12px;}
+    to {left:520px;}
+  }
+@keyframes rollin {
+    from {left: 520px}
+    to {left: 12px;}
+  }
+/* @keyframes rollin {
+    from {margin-left:520px;}
+    to {margin-left:0px;}
+  }
+.txthid:hover::after{
+    background-color: #0f7794;
+    animation-name: rollin;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+} */
+footer {
+    background: #353535;
+    padding: 20px 0;
+    text-align: center;
+    color: #868686;
+    font-size: 12px;
+    border-radius: 20px 20px 0 0;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+}
+footer li a {
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover {
+    color: white;
+}
+body{
+    padding: auto;
+    margin: auto;
+}
+
+.foot1{
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.res{
+    box-sizing: border-box;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: -2.7%;
+}
